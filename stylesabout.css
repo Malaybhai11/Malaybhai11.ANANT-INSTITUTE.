@@ -1,0 +1,96 @@
+body h1{
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: #0044cc;
+}
+body p{
+    color: #ffff;
+    display: flex;
+    animation: forwards;
+}
+body nav button.btn{
+    background-color: #000000;
+    color: #ffff;
+    font-weight: 700;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+}
+body p{
+    align-content: left;
+    padding: 50px;
+}
+body section.container1{
+   font-family: 'Courier New', Courier, monospace;
+}
+section .header{
+    margin-bottom: 1rem;
+    color: #ffff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+.features .card{
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    align-items: center;
+
+
+}
+.features .card:hover{
+    background-color: #323232;
+    border-color: #fff;
+
+}
+.features .card span{
+    display: inline-block;
+    background-color: #27272a;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    border-radius: 5px;
+}
+.features.card h4{
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.features .card p{
+    color: #ccc;
+    margin-bottom: 1rem;
+
+}
+.features .card a{
+    color: #fff;
+    transition: all 0.3s ease;
+    align-items: center;
+}
+.features .card a:hover{
+    color: #a5af1e;
+
+    
+
+}
+.features .card img{
+    border-radius: 10px;
+}
+body nav button a{
+    color: #ffffff;
+    background-color: #000000;
+}

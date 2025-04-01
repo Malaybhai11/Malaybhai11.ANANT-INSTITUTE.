@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+
+}
+img{
+    width: 100%;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #18181b;
+
+}
+nav{
+    width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.nav-logo{
+max-width: 100px;
+
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+}
+.link a:hover::after{
+
+    width: 70%;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+
+}
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #1d4ed8;
+    z-index: -100;
+
+}
+header{
+
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+p.main{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0096d6;
+}
+h1{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    
+}
+h4{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #ffffff;
+}
+.image{
+    width: 500px;
+}
+.adminbutt{
+    background-color: #1d4ed8;
+    font-weight: 700;
+    margin: 5px;
+    padding: 5px;
+    
+}
+footer button a{
+
+    font-weight: 400;
+    font-size: small ;
+    color: #ffffff;
+}
+.adminbutt :hover{
+    background-color: blue ;
+
+}

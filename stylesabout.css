@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #0044cc;
+}
+
+h1 {
+    margin: 0;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+
+p {
+    color: #fff;
+    padding: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.features {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.features .card {
+    background-color: #27272a;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .card:hover {
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.features .card h4 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features .card p {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+
+.features .card a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.features .card a:hover {
+    color: #a5af1e;
+}
+
+.features .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features .card img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.adminbutt a {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
